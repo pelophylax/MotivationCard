@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.motivationcard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/motivationcard" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can do it girl!"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="88dp"
+        android:paddingLeft="32dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quotestart"
+        android:text="It always seems impossible"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_alignParentRight="true"
+        android:paddingRight="8dp"
+        android:paddingTop="96dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="until it's done."
+        android:id="@+id/quoteend"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_alignParentRight="true"
+        android:paddingRight="48dp"
+        android:layout_below="@id/quotestart"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nelson Mandela"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/quoteend"
+        android:layout_alignParentRight="true"
+        android:paddingRight="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Tom"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"/>
+</RelativeLayout>
+
+
+
+
+
